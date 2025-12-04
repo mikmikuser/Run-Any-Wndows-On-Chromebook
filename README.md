@@ -34,3 +34,20 @@ sudo apt update && sudo apt upgrade -y
 ### 3. Downloading Qemu Kvm
 sudo apt install qemu-kvm libvirt-daemon-system virt-manager -y
 
+---
+
+## 🦾 Installation  
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/repository.git
+
+# Navigate to project directory
+cd repository
+
+# Install dependencies
+npm install
+
+# Start the project
+npm start
+
