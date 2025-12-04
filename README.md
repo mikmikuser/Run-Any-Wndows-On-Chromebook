@@ -30,3 +30,7 @@
 ### 2. Update Linux container  
 ```bash
 sudo apt update && sudo apt upgrade -y
+### 3. Downloading Qemu Kvm
+```bash
+sudo apt install qemu-kvm libvirt-daemon-system virt-manager -y
+
