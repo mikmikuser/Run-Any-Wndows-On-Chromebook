@@ -25,7 +25,7 @@
 ## 🦾 Installation  
 
 ```bash
-### 1. Enable Linux Development  
+# 1. Enable Linux Development  
 - Go to **Settings → Developers → Linux development environment** and turn it on.
 
 # Install dependencies
