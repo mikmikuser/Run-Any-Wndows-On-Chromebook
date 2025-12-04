@@ -10,28 +10,24 @@
 
 ## 📌 Description  
 🌟 Run **any version of Windows** (from 1.0 to 10) on your Chromebook using Linux development mode.  
-💡 Great for retro computing fans, developers, or anyone curious about Windows history and compatibility.  
+💡 Perfect for retro computing fans, developers, or anyone curious about Windows history and compatibility.  
 
 ---
 
 ## 🚀 Features  
-✔️ **Multiple Windows Versions** – Boot Windows 1.0, 3.1, XP, Vista, 7, 8, and 10.  
-✔️ **ISO & QCOW2 Support** – Install from ISO files or use ready-to-run disk images.  
-✔️ **Optimized QEMU Setup** – Smooth mouse integration, fullscreen scaling, and customizable RAM/CPU profiles.  
-✔️ **Automation Ready** – Create aliases and launchers for one-command VM startup.  
+- ✔️ **Multiple Windows Versions** – Boot Windows 1.0, 3.1, XP, Vista, 7, 8, and 10  
+- ✔️ **ISO & QCOW2 Support** – Install from ISO files or use ready-to-run disk images  
+- ✔️ **Optimized QEMU Setup** – Smooth mouse integration, fullscreen scaling, and customizable RAM/CPU profiles  
+- ✔️ **Automation Ready** – Create aliases and launchers for one-command VM startup  
 
 ---
 
 ## 🦾 Installation  
 
+### 1. Enable Linux Development  
+Go to **Settings → Developers → Linux development environment** and turn it on.
+
+### 2. Install dependencies  
 ```bash
-# 1. Enable Linux Development  
-- Go to **Settings → Developers → Linux development environment** and turn it on.
-
-# Install dependencies
 sudo apt update && sudo apt upgrade -y
-
-# Start the project
 sudo apt install qemu-kvm libvirt-daemon-system virt-manager -y
-
-
