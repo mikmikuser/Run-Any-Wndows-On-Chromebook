@@ -23,13 +23,12 @@
 ---
 
 ## 🦾 Installation  
-```bash
 
 ### 1. Enable Linux Development  
-- Go to **Settings → Developers → Linux development environment** and turn it on.  
-
-### 2. Update Linux container  
-
+- Go to **Settings → Developers → Linux development environment** and turn it on.
+ 
+```bash
+### 2. Update Linux container
 sudo apt update && sudo apt upgrade -y
 
 ### 3. Downloading Qemu Kvm
