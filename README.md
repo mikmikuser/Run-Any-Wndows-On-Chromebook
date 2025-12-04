@@ -24,30 +24,14 @@
 
 ## 🦾 Installation  
 
+```bash
 ### 1. Enable Linux Development  
 - Go to **Settings → Developers → Linux development environment** and turn it on.
- 
-```bash
-### 2. Update Linux container
-sudo apt update && sudo apt upgrade -y
-
-### 3. Downloading Qemu Kvm
-sudo apt install qemu-kvm libvirt-daemon-system virt-manager -y
-
----
-
-## 🦾 Installation  
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/repository.git
-
-# Navigate to project directory
-cd repository
 
 # Install dependencies
-npm install
+sudo apt update && sudo apt upgrade -y
 
 # Start the project
-npm start
+sudo apt install qemu-kvm libvirt-daemon-system virt-manager -y
+
 
