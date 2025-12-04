@@ -1,15 +1,32 @@
-# Run-Any-Wndows-On-Chromebook
-Make sure before you follow the step you must turn on linux development
+<h1 align="center">☀️ Run-Any-Windows-On-Chromebook</h1>
 
-## Downloads
-Windows 1.0: https://archive.org/details/win-1.0
-Windows 3.1: https://archive.org/details/Windows3.1ISO
-Windows 2000: https://archive.org/details/win2kproiso
-Windows XP: https://archive.org/details/windows-xp-all-sp-msdn-iso-files-en-de-ru-tr-x86-x64
-Windows Vista: https://archive.org/details/windows-vista-sp0-sp1-sp2-msdn-iso-files-en-de-ru-tr-x86-x64
-Windows 7: https://www.mediafire.com/file/qltz6n680wwtz3r/w7.qcow2/file
-Windows 8:https://archive.org/details/win-8.1-super-lite-2017-by-cm-team-pk
-windows 10: https://www.mediafire.com/file/x207jy6tixxyvqv/Windows10.qcow2/file
-windows 11: Not available
+<p align="center">
+  <img src="https://img.shields.io/github/stars/yourusername/Run-Any-Windows-On-Chromebook?style=social">
+  <img src="https://img.shields.io/github/forks/yourusername/Run-Any-Windows-On-Chromebook?style=social">
+  <img src="https://img.shields.io/github/license/yourusername/Run-Any-Windows-On-Chromebook">
+</p>
 
+---
 
+## 📌 Description  
+🌟 Run **any version of Windows** (from 1.0 to 10) on your Chromebook using Linux development mode.  
+💡 Great for retro computing fans, developers, or anyone curious about Windows history and compatibility.  
+
+---
+
+## 🚀 Features  
+✔️ **Multiple Windows Versions** – Boot Windows 1.0, 3.1, XP, Vista, 7, 8, and 10.  
+✔️ **ISO & QCOW2 Support** – Install from ISO files or use ready-to-run disk images.  
+✔️ **Optimized QEMU Setup** – Smooth mouse integration, fullscreen scaling, and customizable RAM/CPU profiles.  
+✔️ **Automation Ready** – Create aliases and launchers for one-command VM startup.  
+
+---
+
+## 🦾 Installation  
+
+### 1. Enable Linux Development  
+- Go to **Settings → Developers → Linux development environment** and turn it on.  
+
+### 2. Update Linux container  
+```bash
+sudo apt update && sudo apt upgrade -y
